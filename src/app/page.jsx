@@ -124,7 +124,7 @@ export default function Home() {
               width: "90%",
               marginInline: "50px",
               marginTop: "20px",
-              fontSize: "20px",
+              fontSize: "15px",
             }}
           ></textarea>
           <div id={divId} className="text-final">
