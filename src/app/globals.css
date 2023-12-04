@@ -84,3 +84,17 @@
   margin: 5px;
   width: 48%;
 }
+@media only screen and (min-width: 347px) and (max-width: 800px) {
+  .box {
+    padding-inline: 20px;
+    padding-block: 5px;
+  }
+  textarea {
+    width: 98% !important;
+    margin-inline: 0px !important;
+  }
+  #btn {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
