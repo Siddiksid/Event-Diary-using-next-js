@@ -140,6 +140,7 @@ export default function Home() {
             type="button"
             onClick={(e) => (
               (dayBox[selectedDay] = ""),
+              setText(""),
               setIsUpdated(false),
               setTextId("textAble"),
               setDivId("divDisable")
